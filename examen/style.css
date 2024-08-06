@@ -1,0 +1,110 @@
+/* Configuraciones iniciales */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-10 {
+  flex: 1;
+  padding: 10px;
+
+}
+
+.col-2 {
+  flex: 2;
+
+}
+
+.col-3 {
+  flex: 3;
+
+}
+
+.col-10{
+    flex: 10;
+    background-color: green;
+}
+
+main{
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.navegacion{
+    height: 60px;
+    width: 1200px;
+    background-color: blueviolet;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none;
+}
+
+
+.flex-rigth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-left li{
+    padding: 10px;
+}
+
+.flex-left a{
+    color: white;
+    text-decoration: none;
+}
+
+.flex-left a:hover{
+
+    background-color: blue;
+    color: black;
+}
+
+.flex-rigth li{
+    padding: 10px;
+    list-style: none;
+}
+
+.flex-rigth a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-xs{
+    width: 25px;
+}
+
+
+.btn-nav{
+    background-color: blueviolet;
+    color: yellow;
+    border: 1px solid yellow;
+
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.titulo-main{
+text-align: center;
+color: blueviolet;
+}
+
