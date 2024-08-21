@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  flex: 1;
+  padding: 10px;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.col-3 {
+  flex: 3;
+}
+
+.col-4 {
+  flex: 4;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+header {
+  width: 1200px;
+  height: 68px;
+  margin: 0 auto;
+
+  background-color: #1a1a1a;
+}
+nav {
+  width: 1200px;
+  height: 40px;
+  margin: 0 auto;
+
+  background-color: silver;
+}
+
+main {
+  width: 1200px;
+
+  margin: 0 auto;
+
+  background-color: aliceblue;
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.encabezado h4 {
+  color: white;
+  margin-right: 10px;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 19%,
+    rgba(134, 134, 134, 1) 100%
+  );
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+
+.imagen-principal {
+  width: 100%;
+}
+
+.contenido {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.contenido img {
+  margin: 10px;
+}
+
+.contenido h3 {
+  color: #a25524;
+}
+
+.contenido p {
+  color: whitesmoke;
+}
+
+.color-fondo {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 19%,
+    rgba(134, 134, 134, 1) 100%
+  );
+}
+
+.btn-buy {
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+
+  margin-top: 30px;
+  margin-left: 100px;
+
+  background: rgb(250, 131, 23);
+  background: linear-gradient(
+    0deg,
+    rgba(250, 131, 23, 1) 8%,
+    rgba(231, 130, 25, 1) 100%
+  );
+}
+
+
+.fondo-negro{
+    background-color: #1a1a1a;
+}
+
+.col-3 p{
+    color: white;
+    padding: 10px
+}
+
+.col-3 h1{
+    color: white;
+    padding: 10px;
+}
+
+.portafolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portafolio a{
+    color: orange;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.portafolio h1{
+    color: white;
+    margin: 10px;
+}
+
+.fondo-gris{
+    background-color: #1a1a1a;
+}
+
+.contenido-portafolio{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-1 h3{
+    color: orangered;
+}
+.col-1 p{
+    color: whitesmoke;
+}
